@@ -1,0 +1,182 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>MRZ的博客 | 喜欢折腾的在读学生 - 记录学习与成长</title><meta name="author" content="MRZ"><meta name="copyright" content="MRZ"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="MRZ的个人博客，记录学习与成长，仅作为另一种朋友圈">
+<meta property="og:type" content="website">
+<meta property="og:title" content="MRZ的博客 | 喜欢折腾的在读学生">
+<meta property="og:url" content="https://blog.968896.xyz/index.html">
+<meta property="og:site_name" content="MRZ的博客 | 喜欢折腾的在读学生">
+<meta property="og:description" content="MRZ的个人博客，记录学习与成长，仅作为另一种朋友圈">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://blog.968896.xyz/img/butterfly-icon.png">
+<meta property="article:author" content="MRZ">
+<meta property="article:tag" content="学习, 记录, 博客">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blog.968896.xyz/img/butterfly-icon.png"><script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "MRZ的博客 | 喜欢折腾的在读学生",
+  "alternateName": [
+    "记录学习与成长",
+    "blog.968896.xyz"
+  ],
+  "url": "https://blog.968896.xyz/"
+}</script><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://blog.968896.xyz/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=5.5.3"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.1.0/css/all.min.css"><script>
+    (() => {
+      
+    const saveToLocal = {
+      set: (key, value, ttl) => {
+        if (!ttl) return
+        const expiry = Date.now() + ttl * 86400000
+        localStorage.setItem(key, JSON.stringify({ value, expiry }))
+      },
+      get: key => {
+        const itemStr = localStorage.getItem(key)
+        if (!itemStr) return undefined
+        const { value, expiry } = JSON.parse(itemStr)
+        if (Date.now() > expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return value
+      }
+    }
+
+    window.btf = {
+      saveToLocal,
+      getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        Object.entries(attr).forEach(([key, val]) => script.setAttribute(key, val))
+        script.onload = script.onreadystatechange = () => {
+          if (!script.readyState || /loaded|complete/.test(script.readyState)) resolve()
+        }
+        script.onerror = reject
+        document.head.appendChild(script)
+      }),
+      getCSS: (url, id) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onload = link.onreadystatechange = () => {
+          if (!link.readyState || /loaded|complete/.test(link.readyState)) resolve()
+        }
+        link.onerror = reject
+        document.head.appendChild(link)
+      }),
+      addGlobalFn: (key, fn, name = false, parent = window) => {
+        if (!false && key.startsWith('pjax')) return
+        const globalFn = parent.globalFn || {}
+        globalFn[key] = globalFn[key] || {}
+        globalFn[key][name || Object.keys(globalFn[key]).length] = fn
+        parent.globalFn = globalFn
+      }
+    }
+  
+      
+      const activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      const activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+
+      btf.activateDarkMode = activateDarkMode
+      btf.activateLightMode = activateLightMode
+
+      const theme = saveToLocal.get('theme')
+    
+          theme === 'dark' ? activateDarkMode() : theme === 'light' ? activateLightMode() : null
+        
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        document.documentElement.classList.toggle('hide-aside', asideStatus === 'hide')
+      }
+    
+      
+    const detectApple = () => {
+      if (/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)) {
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+  
+    })()
+  </script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false,"highlightFullpage":false,"highlightMacStyle":false},
+  copy: {
+    success: '复制成功',
+    error: '复制失败',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'null',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.12.0/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyloadPlugin: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'MRZ的博客 | 喜欢折腾的在读学生',
+  isHighlightShrink: false,
+  isToc: false,
+  pageType: 'home'
+}</script><meta name="generator" content="Hexo 8.1.1"></head><body><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url(/images/background.jpg);"><nav id="nav"><span id="blog-info"><a class="nav-site-title" href="/"><img class="site-icon" src="/images/logo.png" alt="Logo"><span class="site-name">MRZ的博客 | 喜欢折腾的在读学生</span></a></span><div id="menus"></div></nav><div id="site-info"><h1 id="site-title">MRZ的博客 | 喜欢折腾的在读学生</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts nc" id="recent-posts"><div class="recent-post-items"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/30/2020%E6%AF%95%E4%B8%9A%E5%BF%AB%E4%B9%90/" title="2020毕业快乐">2020毕业快乐</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-30T03:11:17.000Z" title="发表于 2025-12-30 11:11:17">2025-12-30</time></span></div><div class="content">2020可以说是很特殊的一年，但不平凡中才能体会平凡的珍贵。虽然没有了毕业典礼，但我们班也为自己做了一份纪念视频，拍摄、剪辑大部分都由班上的同学完成，在此也特别感谢帮忙拍摄的同学，和陈大佬的构思，没有陈大佬的构思，这个视频不会这么完美，其实当时一度想放弃，但是还是和陈大佬坚持下来，这里感谢陈大佬，从构思到最终完成，都离不开他的努力，十分感谢。 如今，大家都各奔东西，奋斗在各个高校，清华、中科院、中科大等名校都有大家的身影，这篇文章除了感激，谢谢大家，同在一间小教室，一起奋斗，一起讨论，很怀念当时的时光，还有就是想以文字的方式记录我们的友谊(此文写于2021年初一，还是没有思路，文字很乱，待以后修改补充)。 </div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/30/%E5%9C%A8%E5%90%8E%E6%91%A9%E5%B0%94%E6%97%B6%E4%BB%A3%EF%BC%8C%E9%A9%B1%E5%8A%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%80%A7%E8%83%BD%E5%8F%91%E5%B1%95%E7%9A%84%E6%98%AF%E9%A1%B6%E9%83%A8%E7%A9%BA%E9%97%B4/" title="在后摩尔时代，驱动计算机性能发展的是顶部空间">在后摩尔时代，驱动计算机性能发展的是顶部空间</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-30T03:06:29.000Z" title="发表于 2025-12-30 11:06:29">2025-12-30</time></span></div><div class="content"> 对于Science文章《There’s plenty of room at the Top-What will drive computer performance after Moore’s law》的总结   作者： Charles E. Leiserson ：计算机科学家，专门研究并行计算和分布式计算理论，开发了Cilk多线程语言，发明了胖树互连网络，一种在许多超级计算机中使用的硬件通用互连网络，并且为《算法导论》作者之一。 Neil C. Thompson ：麻省理工学院计算机科学与人工智能实验室研究员，曾在劳伦斯·利弗莫尔国家实验室工作。 Joel Emer ：计算机性能分析技术的先驱，也是微处理器架构师。目前是Nvidia的研究员和麻省理工学院的实践教授。 Bradley C. Kuszmaul ：麻省理工学院计算机科学实验室超级计算技术小组研究员，研究方向为高性能计算中求解系统问题的算法设计，于2020年加入Google。 Butler W. Lampson ：计算机科学家，1992年获得图灵奖，1995年加盟微软，任软件总工程师至今。 Daniel Sanche...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/30/spack%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/" title="spack基础教程">spack基础教程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-30T03:04:15.000Z" title="发表于 2025-12-30 11:04:15">2025-12-30</time></span></div><div class="content"> 参考资料：Spack 入门指南 – refraction-ray (re-ra.xyz)Spack：超算上最好的包管理器 - 知乎 (zhihu.com)Spack — Spack 0.20.0.dev0 documentation  spack 安装123$ git clone -c feature.manyFiles=true https://github.com/spack/spack.git$ cd spack/bin$ ./spack install libelf  spack 使用 加载 spack 环境  12345678# For bash/zsh/sh$ . spack/share/spack/setup-env.sh# For tcsh/csh$ source spack/share/spack/setup-env.csh# For fish$ . spack/share/spack/setup-env.fish  spack 文件夹架构 123456789101112131415161718192021222324252627282930313233343...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/12/30/HPCToolKit%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" title="HPCToolKit基础使用教程">HPCToolKit基础使用教程</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-12-30T03:02:27.000Z" title="发表于 2025-12-30 11:02:27">2025-12-30</time></span></div><div class="content">安装1$ spack install hpctoolkit  性能数据采样 基础教程推荐看 HPCToolKit 手册 第三章 Quick Start  主要有以下几个流程  measurement of context-sensitive performance metrics while an application executes; binary analysis to recover program structure from CPU and GPU binaries; attribution of performance metrics by correlating dynamic performance metrics with static program structure; presentation of performance metrics and associated source code.  具体示意图如下： 1. Compiling an Application在使用HPCToolKit之前，需要对于源代码编译加入调试信息，即使用 -g -O3 ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/11/25/%E5%8D%9A%E5%AE%A2%E6%81%A2%E5%A4%8D%E7%AC%94%E8%AE%B0/" title="博客恢复笔记">博客恢复笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-11-25T13:54:44.000Z" title="发表于 2025-11-25 21:54:44">2025-11-25</time></span></div><div class="content">从自己的导航网站角落里把博客翻了出来，不得不感谢 GitHub，虽然断更至少五年，但页面依然安然无恙。只可惜当年的源代码已经丢失，如今只能想办法手动复刻，重新启动。 重新审视了一圈，决定技术栈依旧沿用 Hexo + GitHub，主题也还是我熟悉的 Butterfly（再次感谢作者的维护！）。在恢复的过程中做了一些优化，也顺便记录下以前踩过的坑，权当备忘。 改进点 1：使用 nvm 管理 Node 环境nvm (Node Version Manager) 是一款实用的 命令行工具，专门用于在同一台机器上 安装、切换、卸载多个 Node.js 版本，能有效避免不同项目因 Node 版本不一致而导致的依赖报错。 安装方式安装非常简单，Linux 和 Windows 略有不同：  Linux&#x2F;macOS：使用官方脚本安装。 Windows：前往官网下载安装包（setup.exe）直接安装即可。  常用命令使用起来也非常直观，以下是常用指令速查：    目的 命令 说明    查看可用版本 nvm ls-remote --lts 列出远程服务器上所有 LTS 版本   安装 L...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2025/11/07/hello-world/" title="Hello World">Hello World</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2025-11-07T11:30:47.350Z" title="发表于 2025-11-07 19:30:47">2025-11-07</time></span></div><div class="content">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;  More info: Writing Run server1$ hexo server  More info: Server Generate static files1$ hexo generate  More info: Generating Deploy to remote sites1$ hexo deploy  More info: Deployment </div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info text-center"><div class="avatar-img"><img src="/img/butterfly-icon.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info-name">MRZ</div><div class="author-info-description">MRZ的个人博客，记录学习与成长，仅作为另一种朋友圈</div><div class="site-data"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">2</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/30/2020%E6%AF%95%E4%B8%9A%E5%BF%AB%E4%B9%90/" title="2020毕业快乐">2020毕业快乐</a><time datetime="2025-12-30T03:11:17.000Z" title="发表于 2025-12-30 11:11:17">2025-12-30</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/30/%E5%9C%A8%E5%90%8E%E6%91%A9%E5%B0%94%E6%97%B6%E4%BB%A3%EF%BC%8C%E9%A9%B1%E5%8A%A8%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%80%A7%E8%83%BD%E5%8F%91%E5%B1%95%E7%9A%84%E6%98%AF%E9%A1%B6%E9%83%A8%E7%A9%BA%E9%97%B4/" title="在后摩尔时代，驱动计算机性能发展的是顶部空间">在后摩尔时代，驱动计算机性能发展的是顶部空间</a><time datetime="2025-12-30T03:06:29.000Z" title="发表于 2025-12-30 11:06:29">2025-12-30</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/30/spack%E5%9F%BA%E7%A1%80%E6%95%99%E7%A8%8B/" title="spack基础教程">spack基础教程</a><time datetime="2025-12-30T03:04:15.000Z" title="发表于 2025-12-30 11:04:15">2025-12-30</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/12/30/HPCToolKit%E5%9F%BA%E7%A1%80%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/" title="HPCToolKit基础使用教程">HPCToolKit基础使用教程</a><time datetime="2025-12-30T03:02:27.000Z" title="发表于 2025-12-30 11:02:27">2025-12-30</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2025/11/25/%E5%8D%9A%E5%AE%A2%E6%81%A2%E5%A4%8D%E7%AC%94%E8%AE%B0/" title="博客恢复笔记">博客恢复笔记</a><time datetime="2025-11-25T13:54:44.000Z" title="发表于 2025-11-25 21:54:44">2025-11-25</time></div></div></div></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 1.1em; color: #999">博客</a> <a href="/tags/hexo/" style="font-size: 1.1em; color: #999">hexo</a></div></div><div class="card-widget card-archives">
+    <div class="item-headline">
+      <i class="fas fa-archive"></i>
+      <span>归档</span>
+      
+    </div>
+  
+    <ul class="card-archive-list">
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/12/">
+            <span class="card-archive-list-date">
+              十二月 2025
+            </span>
+            <span class="card-archive-list-count">4</span>
+          </a>
+        </li>
+      
+        <li class="card-archive-list-item">
+          <a class="card-archive-list-link" href="/archives/2025/11/">
+            <span class="card-archive-list-date">
+              十一月 2025
+            </span>
+            <span class="card-archive-list-count">2</span>
+          </a>
+        </li>
+      
+    </ul>
+  </div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站信息</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">6</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总浏览量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2025-12-30T03:24:17.267Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div class="footer-other"><div class="footer-copyright"><span class="copyright">&copy;&nbsp;2025 By MRZ</span><span class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo 8.1.1</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly 5.5.3</a></span></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="日间和夜间模式切换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=5.5.3"></script><script src="/js/main.js?v=5.5.3"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
